@@ -26,7 +26,7 @@ public class KeycodeTest {
 //    @Test
 //    public void testComplexTestCase() {
 //        Keycode keycode = new Keycode();
-//        String code = keycode.findCode(readFile("simple_test_case_edges.txt"));
+//        String code = keycode.findCode(readFile("complex_test_case.txt"));
 //        assertEquals("56983", code);
 //    }
 
