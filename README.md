@@ -6,9 +6,9 @@
 
 A refactoring kata for use in coding dojo
 
-Based on [Advent Of Code 2016 Day 2](http://adventofcode.com/2016/day/2)
+Based on/Stolen from [Advent Of Code 2016 Day 2](http://adventofcode.com/2016/day/2)
  
-##Description
+## Description
  
 Given a keypad like below, and a set of instructions, each button to be pressed can be found by starting on the previous button and moving to adjacent buttons on the keypad: U moves up, D moves down, L moves left, and R moves right. Each line of instructions corresponds to one button, starting at the previous button (or, for the first line, the "5" button); press whatever button you're on at the end of each line. If a move doesn't lead to a button, ignore it.
 ```
@@ -17,7 +17,7 @@ Given a keypad like below, and a set of instructions, each button to be pressed 
 7 8 9 
 ```
  
-####Example
+#### Example
 Suppose your instructions are:  
 ``` 
     ULL 
@@ -33,10 +33,10 @@ Suppose your instructions are:
 
 So, in this example, the bathroom code is `1985`.
 
-####Goal
+#### Goal
 The goal of the Kata is to refactor the code to be more modular, resolve the unit test failures and increase the code coverage.
 
-###Part 2
+### Part 2
 If the Kata is completed in time, there is a second part of the challenge to add, below:
 
 The same rules apply as above, however the keypad is different in this case:
@@ -49,7 +49,7 @@ The same rules apply as above, however the keypad is different in this case:
     D
 ```
 
-####Example
+#### Example
 * You still start at "5" and stop when you're at an edge, but given the same instructions as above, the outcome is very different:
 * You start at "5" and don't move at all (up and left are both edges), ending at 5.
 * Continuing from "5", you move right twice and down three times (through "6", "7", "B", "D", "D"), ending at D.
