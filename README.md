@@ -1,8 +1,8 @@
 # refactoring-kata
 
-[![Build Status](https://travis-ci.org/eoin18/refactoring-kata.svg?branch=master)](https://travis-ci.org/eoin18/refactoring-kata)
+[![Build Status](https://travis-ci.org/eoin18/refactoring-kata.svg?branch=12_04_2017)](https://travis-ci.org/eoin18/refactoring-kata)
 
-[![codecov](https://codecov.io/gh/eoin18/refactoring-kata/branch/master/graph/badge.svg)](https://codecov.io/gh/eoin18/refactoring-kata)
+[![codecov](https://codecov.io/gh/eoin18/refactoring-kata/branch/12_04_2017/graph/badge.svg)](https://codecov.io/gh/eoin18/refactoring-kata)
 
 A refactoring kata for use in coding dojo
 
