@@ -1,4 +1,7 @@
 # refactoring-kata
+
+[![Build Status](https://travis-ci.org/eoin18/refactoring-kata.svg?branch=master)](https://travis-ci.org/eoin18/refactoring-kata)
+
 A refactoring kata for use in coding dojo
 
 Based on [Advent Of Code 2016 Day 2](http://adventofcode.com/2016/day/2)
