@@ -31,7 +31,7 @@ Suppose your instructions are:
 * Continuing from "9", you move left, up, right, down, and left, ending with 8.
 * Finally, you move up four times (stopping at "2"), then down once, ending with 5.
 
-So, in this example, the bathroom code is `1985`.
+So, in this example, the code is `1985`.
 
 #### Goal
 The goal of the Kata is to refactor the code to be more modular, resolve the unit test failures and increase the code coverage.
