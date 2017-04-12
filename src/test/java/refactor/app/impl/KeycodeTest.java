@@ -16,19 +16,19 @@ public class KeycodeTest {
         assertEquals("6918", code);
     }
 
-//    @Test
-//    public void testSimpleTestCaseWithEdges() {
-//        Keycode keycode = new Keycode();
-//        String code = keycode.findCode(readFile("simple_test_case_edges.txt"));
-//        assertEquals("1985", code);
-//    }
-//
-//    @Test
-//    public void testComplexTestCase() {
-//        Keycode keycode = new Keycode();
-//        String code = keycode.findCode(readFile("complex_test_case.txt"));
-//        assertEquals("56983", code);
-//    }
+    @Test
+    public void testSimpleTestCaseWithEdges() {
+        Keycode keycode = new Keycode();
+        String code = keycode.findCode(readFile("simple_test_case_edges.txt"));
+        assertEquals("1985", code);
+    }
+
+    @Test
+    public void testComplexTestCase() {
+        Keycode keycode = new Keycode();
+        String code = keycode.findCode(readFile("complex_test_case.txt"));
+        assertEquals("56983", code);
+    }
 
     private static String readFile(String path) {
         try {
